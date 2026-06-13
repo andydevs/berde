@@ -31,5 +31,4 @@ cargo test -p berde  # run tests for just the berde crate
 
 See [`demos/json_schema`](demos/json_schema) for an example of how a versioned schema is laid
 out: each version of a type lives in its own module under `src/versions/` (e.g. `v1.rs`,
-`v2.rs`), and a build script generates the module declarations that expose them as
-`versions::v1`, `versions::v2`, etc.
+`v2.rs`).
